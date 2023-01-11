@@ -1,0 +1,33 @@
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 0;
+
+    li {
+        display: flex;
+        gap: 20px;
+        margin: 10px;
+        font-size: 1.5rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.NavBloc {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #F95959;
+}
+
+.activated {
+    text-decoration: underline;
+    color: #F95959;
+}

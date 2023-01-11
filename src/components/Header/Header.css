@@ -1,0 +1,24 @@
+.headerBloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: baseline;
+  height: 100px;
+  padding: 10px 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 10px;
+  left: 130px;
+}
+.title b {
+  font-size: 3.5rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=Header.css.map */
