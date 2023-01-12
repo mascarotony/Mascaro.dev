@@ -13,6 +13,11 @@ ul {
 
         a {
             text-decoration: none;
+
+            &:hover {
+                text-shadow: 3px 3px 2px #939393;
+                transform: scale(110%);
+            }
         }
     }
 }
@@ -28,6 +33,11 @@ ul {
 }
 
 .activated {
-    text-decoration: underline;
-    color: #F95959;
+    text-decoration: underline #F95959;
+    color: #252525;
+
+    &:hover {
+        text-shadow: none;
+        transform: none;
+    }
 }
