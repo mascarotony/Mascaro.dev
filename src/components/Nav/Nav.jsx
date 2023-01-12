@@ -24,7 +24,7 @@ function Nav() {
               className={({ isActive }) => (isActive ? 'activated' : 'link')}
               end
             >
-              Mes Compétences
+              Compétences
             </NavLink>
             <NavLink
               to="/Portfolio"

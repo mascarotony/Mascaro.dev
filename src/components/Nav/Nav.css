@@ -15,6 +15,10 @@ ul li {
 ul li a {
   text-decoration: none;
 }
+ul li a:hover {
+  text-shadow: 3px 3px 2px #939393;
+  transform: scale(110%);
+}
 
 .NavBloc {
   display: flex;
@@ -27,6 +31,11 @@ ul li a {
 }
 
 .activated {
-  text-decoration: underline;
-  color: #F95959;
+  -webkit-text-decoration: underline #F95959;
+          text-decoration: underline #F95959;
+  color: #252525;
+}
+.activated:hover {
+  text-shadow: none;
+  transform: none;
 }/*# sourceMappingURL=Nav.css.map */

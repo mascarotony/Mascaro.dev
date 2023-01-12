@@ -1,0 +1,15 @@
+.HomePage {
+    background-color: #F6F6F6
+}
+
+.titleBloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    h1 {
+        font-size: 5rem;
+    }
+}
