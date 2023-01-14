@@ -4,6 +4,7 @@ ul {
     list-style-type: none;
     padding-inline-start: 0;
     margin: 0;
+    margin-right: 20px;
 
     li {
         display: flex;
@@ -13,10 +14,11 @@ ul {
 
         a {
             text-decoration: none;
+            text-shadow: 1px 1px 2px #b8b8b8;
 
             &:hover {
-                text-shadow: 3px 3px 2px #939393;
-                transform: scale(110%);
+                text-shadow: 2px 2px 4px #b8b8b8;
+                transform: scale(115%);
             }
         }
     }
@@ -34,10 +36,11 @@ ul {
 
 .activated {
     text-decoration: underline #F95959;
+    text-shadow: 1px 1px 2px #b8b8b8;
     color: #252525;
 
     &:hover {
-        text-shadow: none;
+        text-shadow: 1px 1px 2px #b8b8b8;
         transform: none;
     }
 }
