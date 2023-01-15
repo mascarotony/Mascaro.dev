@@ -1,6 +1,7 @@
 //Utils
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { NavLink } from 'react-router-dom'
 
 //Components
 import Header from '../../components/Header/Header'
@@ -9,6 +10,7 @@ import Footer from '../../components/Footer/Footer'
 //Assets
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import ProfilePic from '../../assets/images/ProfilePic.jpg'
 
 //Style
 import './Home.css'
@@ -40,7 +42,50 @@ function Home() {
           </button>
         </a>
       </div>
-      <div className="presBloc" id="presBloc"></div>
+      <div className="presBloc" id="presBloc">
+        <h3>Présentation</h3>
+        <div className="presDesc">
+          <div className="profilePicBloc">
+            <img
+              className="ProfilePic"
+              src={ProfilePic}
+              alt="Portrait de moi-même"
+            />
+          </div>
+          <div className="presText">
+            <p>
+              Bonjour,
+              <br />
+              Je m'appelle Tony Mascaro et je suis développeur Web Full-stack.
+            </p>
+            <p>
+              Passionné depuis toujours par les nouvelles technologies, je me
+              suis lancé dans le monde du développement web, car comme on le
+              sait tous, le monde de demain tient dans notre poche !
+            </p>
+            <p>
+              Pour plus d'informations sur mes conaissances, je vous invite à
+              vous rendre sur la page{' '}
+              <NavLink to="/Competences" end>
+                compétences
+              </NavLink>{' '}
+              .
+              <br />
+              Vous souhaitez découvrir mes dernières créations,{' '}
+              <NavLink to="/Portfolio" end>
+                cliquez ici
+              </NavLink>{' '}
+              !
+              <br />
+              Mon travail vous intéresse,{' '}
+              <NavLink to="/Contact" end>
+                contactez-moi
+              </NavLink>{' '}
+              !
+            </p>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   )
