@@ -1,0 +1,126 @@
+.CompetencePage {
+    background-color: #F6F6F6;
+}
+
+.CompBloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding-top: 200px;
+    background-color: #F6F6F6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.3'%3E%3Cpolygon fill='%23f6e6e6' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23f7d5d5' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23f7c3c3' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23f8afaf' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23f89797' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23f97c7c' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23F95959' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+    h1 {
+        font-size: 6rem;
+        margin: 0;
+        text-shadow: 2px 2px 4px #F95959;
+    }
+}
+
+.compList {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    gap: 90px;
+
+    .compCard {
+        cursor: pointer;
+        width: 100%;
+        max-width: 300px;
+        min-width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F6F6F6;
+        border-radius: 25px;
+        border: solid 2px #f0f0f0;
+        box-shadow: 0px 2px 6px #a5a5a5;
+        transition: all 300ms ease;
+        position: relative;
+
+        .cardImg {
+            margin: 0 auto;
+            background-color: #F95959;
+            border-radius: 100%;
+            width: 100%;
+            max-width: 160px;
+            margin-top: 30px;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: all 300ms ease;
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+
+        .cardTitle {
+            font-size: 1.5rem;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .cardText {
+            font-size: 1.2rem;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 10px;
+            opacity: 0;
+            max-height: 0;
+            transition: all 300ms ease;
+        }
+
+        .rateBloc {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 20px;
+            opacity: 0;
+            max-height: 0;
+            transition: all 300ms ease;
+        }
+
+        &:hover {
+            height: 350px;
+        } 
+    }
+
+    .compCard:hover .cardText {
+        transition: all 300ms ease;
+        opacity: 1;
+        max-height:40px;
+    }
+
+    .compCard:hover .rateBloc {
+        transition: all 300ms ease;
+        opacity: 1;
+        max-height:40px;
+    }
+
+    .compCard:hover .cardImg {
+        transition: all 300ms ease;
+        margin-top: 0;
+        background-color: transparent;
+        overflow: unset;
+    }
+}

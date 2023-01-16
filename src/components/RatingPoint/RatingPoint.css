@@ -1,0 +1,9 @@
+.ratePoint {
+    color: #252525;
+    font-size: 1.5rem;
+}
+
+.ratePoint-Active {
+    color: #F95959;
+    font-size: 1.5rem;
+}
