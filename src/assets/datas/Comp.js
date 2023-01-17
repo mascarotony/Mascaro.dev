@@ -3,18 +3,16 @@ const CompItem = [
   {
     id: '1',
     title: 'HTML5',
-    icon: 'https://icones.pro/wp-content/uploads/2021/05/icone-html-noir.png',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png',
     iconAlt: 'Icône HTML',
     rating: 5,
-    tech: 'Front-End',
   },
   {
     id: '2',
     title: 'CSS3',
-    icon: 'https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968242.png',
     iconAlt: 'Icône CSS',
     rating: 5,
-    tech: 'Front-End',
   },
   {
     id: '3',
@@ -22,7 +20,6 @@ const CompItem = [
     icon: 'https://www.training-dev.fr/Img/Category/Js.png',
     iconAlt: 'Icône JavaScript',
     rating: 4,
-    tech: 'Programmation',
   },
   {
     id: '4',
@@ -30,7 +27,41 @@ const CompItem = [
     icon: 'https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png',
     iconAlt: 'Icône React.js',
     rating: 4,
-    tech: 'Programmation',
+  },
+  {
+    id: '5',
+    title: 'Sass',
+    icon: 'https://www.iconbolt.com/iconsets/ionicons-logos/sass.svg',
+    iconAlt: 'Icône Sass',
+    rating: 5,
+  },
+  {
+    id: '6',
+    title: 'Figma',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968701.png',
+    iconAlt: 'Icône Figma',
+    rating: 3,
+  },
+  {
+    id: '7',
+    title: 'Node.JS',
+    icon: 'https://cdn.iconscout.com/icon/free/png-256/nodejs-2-226035.png',
+    iconAlt: 'Icône Node.JS',
+    rating: 3,
+  },
+  {
+    id: '8',
+    title: 'MongoDB',
+    icon: 'https://play-lh.googleusercontent.com/1TaXdNkbOkktpj2_tAht-_OoK9DfQ7hAc-fCPvENn9hgFZTyikU-BMKdAHenxM7a-_QH',
+    iconAlt: 'Icône MongoDB',
+    rating: 3,
+  },
+  {
+    id: '9',
+    title: 'JsonWebToken',
+    icon: 'https://media.licdn.com/dms/image/D4D12AQHW9aRSWIOMxQ/article-cover_image-shrink_600_2000/0/1657421703592?e=2147483647&v=beta&t=nKygyfSDFwgPdEoC-nEkogMS0527SBa8z8D_FqUr-us',
+    iconAlt: 'Icône JWT',
+    rating: 4,
   },
 ]
 

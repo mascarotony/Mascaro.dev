@@ -17,7 +17,12 @@
 .CompBloc h1 {
   font-size: 6rem;
   margin: 0;
-  text-shadow: 2px 2px 4px #F95959;
+  text-shadow: 2px 2px 4px #999999;
+}
+.CompBloc b {
+  margin: 50px 0;
+  font-size: 2rem;
+  text-shadow: 1px 1px 4px #a5a5a5;
 }
 
 .compList {
@@ -26,7 +31,7 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 100px auto;
+  margin: 50px auto;
   gap: 90px;
 }
 .compList .compCard {
@@ -44,20 +49,19 @@
   border: solid 2px #f0f0f0;
   box-shadow: 0px 2px 6px #a5a5a5;
   transition: all 300ms ease;
+  background-color: #F95959;
   position: relative;
 }
 .compList .compCard .cardImg {
   margin: 0 auto;
-  background-color: #F95959;
-  border-radius: 100%;
+  border-radius: 10%;
   width: 100%;
   max-width: 160px;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   transition: all 300ms ease;
 }
 .compList .compCard .cardImg img {
@@ -95,6 +99,7 @@
 }
 .compList .compCard:hover {
   height: 350px;
+  background-color: white;
 }
 .compList .compCard:hover .cardText {
   transition: all 300ms ease;
@@ -109,6 +114,4 @@
 .compList .compCard:hover .cardImg {
   transition: all 300ms ease;
   margin-top: 0;
-  background-color: transparent;
-  overflow: unset;
 }/*# sourceMappingURL=Competences.css.map */

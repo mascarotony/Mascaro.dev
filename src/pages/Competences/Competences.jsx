@@ -24,7 +24,6 @@ function Competences() {
               <img src={item.icon} alt={item.iconAlt} />
             </div>
             <h3 className="cardTitle">{item.title}</h3>
-            <b className="cardText">Technologie {item.tech}.</b>
             <RatingPoint rating={item.rating} />
           </div>
         )
@@ -40,7 +39,9 @@ function Competences() {
       <Header />
       <div className="CompBloc">
         <h1>Compétences</h1>
+        <b>Survolez les compétences pour connaître mon niveau !</b>
         <CompsList />
+        <b>D'autres compétences apparaîtrons avec l'expérience ...</b>
       </div>
       <Footer />
     </div>
