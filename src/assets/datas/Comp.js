@@ -17,7 +17,7 @@ const CompItem = [
   {
     id: '3',
     title: 'JavaScript',
-    icon: 'https://www.training-dev.fr/Img/Category/Js.png',
+    icon: 'https://cdn-icons-png.flaticon.com/512/919/919828.png',
     iconAlt: 'Icône JavaScript',
     rating: 4,
   },
