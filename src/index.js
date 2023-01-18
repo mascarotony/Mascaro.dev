@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 //Pages
 import Home from './pages/Home/Home'
 import Competences from './pages/Competences/Competences'
+import Portfolio from './pages/Portfolio/Portfolio'
 
 //Style
 import './index.css'
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: '/Competences',
     element: <Competences />,
+  },
+  {
+    path: '/Portfolio',
+    element: <Portfolio />,
   },
 ])
 

@@ -15,6 +15,7 @@ import ProfilePic from '../../assets/images/ProfilePic.jpg'
 //Style
 import './Home.css'
 
+//Function
 function Home() {
   return (
     <div className="HomePage">
