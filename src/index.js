@@ -15,16 +15,16 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: <Home />
   },
   {
     path: '/Competences',
-    element: <Competences />,
+    element: <Competences />
   },
   {
     path: '/Portfolio',
-    element: <Portfolio />,
-  },
+    element: <Portfolio />
+  }
 ])
 
 //Render
