@@ -16,9 +16,9 @@ import PortItem from '../../assets/datas/Project'
 import './Carousel.css'
 
 //Function
-function Carousel(slides) {
+function Carousel() {
   const [current, setCurrent] = useState(0)
-  const length = slides.length
+  const length = PortItem.length
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1)
