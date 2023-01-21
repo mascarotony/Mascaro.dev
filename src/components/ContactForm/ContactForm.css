@@ -1,0 +1,92 @@
+.ContactForm {
+  width: 800px;
+  padding: 40px;
+  background: rgba(37, 37, 37, 0.6);
+  box-shadow: 0 15px 25px #F6F6F6;
+  border-radius: 10px;
+}
+.ContactForm .nameBox input {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #F6F6F6;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #F6F6F6;
+  border-left: 1px solid #F6F6F6;
+  border-radius: 0 0 0 10px;
+  outline: none;
+  background: transparent;
+}
+.ContactForm .nameBox label {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  color: #F6F6F6;
+  pointer-events: none;
+  transition: 500ms;
+}
+.ContactForm .emailBox input {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #F6F6F6;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #F6F6F6;
+  border-left: 1px solid #F6F6F6;
+  border-radius: 0 0 0 10px;
+  outline: none;
+  background: transparent;
+}
+.ContactForm .emailBox label {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  color: #F6F6F6;
+  pointer-events: none;
+  transition: 500ms;
+}
+.ContactForm .messageBox textarea {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #F6F6F6;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #F6F6F6;
+  border-left: 1px solid #F6F6F6;
+  border-radius: 0 0 0 10px;
+  outline: none;
+  background: transparent;
+}
+.ContactForm .messageBox label {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  color: #F6F6F6;
+  pointer-events: none;
+  transition: 500ms;
+}
+.ContactForm form {
+  display: flex;
+  flex-direction: column;
+}
+.ContactForm form button {
+  padding: 10px 20px;
+  color: #F6F6F6;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 500ms;
+  border: 1px solid #F95959;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 10px;
+}
+.ContactForm form button:hover {
+  cursor: pointer;
+  background: #F95959;
+  box-shadow: 0 0 5px #F95959, 0 0 50px #F95959;
+}/*# sourceMappingURL=ContactForm.css.map */
