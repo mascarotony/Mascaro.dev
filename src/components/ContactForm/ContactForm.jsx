@@ -9,7 +9,7 @@ function ContactForm() {
   return (
     <div className="ContactForm">
       <form name="contact" method="post" data-netlify="true" onSubmit="submit">
-        <input type="hidden" name="form-name" value="Contact" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <div className="nameBox">
           <label for="name">Nom & Prénom</label>
