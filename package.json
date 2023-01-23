@@ -1,6 +1,6 @@
 {
   "name": "mascaro.dev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -9,6 +9,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -42,5 +44,17 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mascarotony/Mascaro.dev.git"
+  },
+  "author": "Mascaro.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mascarotony/Mascaro.dev/issues"
+  },
+  "homepage": "https://mascarodev.netlify.com"
 }
