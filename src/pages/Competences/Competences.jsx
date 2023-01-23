@@ -48,7 +48,7 @@ function Competences() {
           </a>{' '}
           pour plus d'informations sur mes expériences précédentes.
         </p>
-        <b>D'autres compétences apparaîtrons avec l'expérience ...</b>
+        <b>D'autres compétences apparaîtront avec l'expérience ...</b>
       </div>
       <Footer />
     </div>
