@@ -114,4 +114,13 @@
 .compList .compCard:hover .cardImg {
   transition: all 300ms ease;
   margin-top: 0;
+}
+
+.cvLink {
+  font-size: 1.2rem;
+}
+.cvLink a {
+  text-decoration: none;
+  color: #F95959;
+  text-shadow: 2px 2px #F6F6F6;
 }/*# sourceMappingURL=Competences.css.map */

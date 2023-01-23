@@ -25,11 +25,11 @@
 }
 
 .descBloc {
-  width: 440px;
+  width: 900px;
   text-align: center;
 }
 .descBloc p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 4px #F6F6F6;
   margin-top: 60px;
 }
