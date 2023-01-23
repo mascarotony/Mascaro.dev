@@ -8,6 +8,7 @@ import Home from './pages/Home/Home'
 import Competences from './pages/Competences/Competences'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Contact from './pages/Contact/Contact'
+import Error from './pages/Error/Error'
 
 //Style
 import './index.css'
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/Contact',
     element: <Contact />
+  },
+  {
+    path: '/*',
+    element: <Error />
   }
 ])
 
