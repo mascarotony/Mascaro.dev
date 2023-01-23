@@ -17,7 +17,7 @@ import './Competences.css'
 function Competences() {
   const CompsList = () => (
     <div className="compList">
-      {CompItem.map((item) => {
+      {CompItem.map(item => {
         return (
           <div className="compCard" key={item.id}>
             <div className="cardImg">
@@ -41,6 +41,13 @@ function Competences() {
         <h1>Compétences</h1>
         <b>Survolez les compétences pour connaître mon niveau !</b>
         <CompsList />
+        <p className="cvLink">
+          Vous pouvez{' '}
+          <a href="src\assets\download\CV - Mascaro.dev.docx" download>
+            Télécharger mon CV
+          </a>{' '}
+          pour plus d'informations sur mes expériences précédentes.
+        </p>
         <b>D'autres compétences apparaîtrons avec l'expérience ...</b>
       </div>
       <Footer />

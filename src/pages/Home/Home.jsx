@@ -28,8 +28,9 @@ function Home() {
         <h2>Basé à Angers - France</h2>
         <div className="descBloc">
           <p>
-            Donner vie à vos idées est ma mission. Je vous accompagne de la
-            maquette à la mise en ligne de votre projet !
+            Donner vie à vos idées est ma mission. <br />
+            Je vous accompagne de la maquette à la mise en ligne de votre projet
+            !
           </p>
         </div>
         <a href="#presBloc" className="downBtn">
