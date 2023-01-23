@@ -9,6 +9,7 @@ import RatingPoint from '../../components/RatingPoint/RatingPoint'
 
 //Datas
 import CompItem from '../../assets/datas/Comp'
+import MyCV from '../../assets/download/CV - Mascaro.dev.pdf'
 
 //Style
 import './Competences.css'
@@ -43,7 +44,7 @@ function Competences() {
         <CompsList />
         <p className="cvLink">
           Vous pouvez{' '}
-          <a href="src\assets\download\CV - Mascaro.dev.docx" download>
+          <a href={MyCV} download>
             Télécharger mon CV
           </a>{' '}
           pour plus d'informations sur mes expériences précédentes.
