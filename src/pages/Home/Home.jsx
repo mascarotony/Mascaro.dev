@@ -66,7 +66,7 @@ function Home() {
               sait tous, le monde de demain tient dans notre poche !
             </p>
             <p>
-              Pour plus d'informations sur mes conaissances, je vous invite à
+              Pour plus d'informations sur mes connaissances, je vous invite à
               vous rendre sur la page{' '}
               <NavLink to="/Competences" end>
                 compétences
