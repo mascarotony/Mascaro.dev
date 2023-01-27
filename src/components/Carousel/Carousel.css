@@ -21,6 +21,7 @@
 }
 .CarouselItem:hover .ItemDesc {
   transform: translateY(20px);
+  height: 100px;
   width: 60%;
 }
 .CarouselItem:hover .ItemDesc b {
@@ -28,8 +29,9 @@
   opacity: 0;
 }
 .CarouselItem:hover .ItemDesc p {
+  font-size: 1vw;
   position: relative;
-  top: -60%;
+  top: -30%;
   opacity: 1;
 }
 .CarouselItem a {
@@ -57,9 +59,9 @@
   transition: all 300ms ease;
 }
 .ItemDesc b {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   position: relative;
-  top: 20%;
+  top: -20%;
   transition: all 300ms ease;
 }
 .ItemDesc p {

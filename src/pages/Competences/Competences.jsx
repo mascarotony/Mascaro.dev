@@ -3,7 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 //Components
-import Header from '../../components/Header/Header'
+import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import RatingPoint from '../../components/RatingPoint/RatingPoint'
 
@@ -37,7 +37,7 @@ function Competences() {
       <Helmet>
         <title>Mascaro.dev | Compétences</title>
       </Helmet>
-      <Header />
+      <Nav />
       <div className="CompBloc">
         <h1>Compétences</h1>
         <b>Survolez les compétences pour connaître mon niveau !</b>
