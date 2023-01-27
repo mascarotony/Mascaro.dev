@@ -166,3 +166,83 @@
         text-decoration: none;
     }
 }
+
+//Responsive Tablet/Mobile
+@media screen and(max-width:850px) {
+    .titleBloc {
+        padding-top: 150px;
+        height: 100vh;
+    
+        h1 {
+            text-align: center;
+            font-size: 8vw;
+            text-shadow: 2px 2px 5px #F6F6F6;
+        }
+    
+        h2 {
+            font-size: 5vw;
+            text-shadow: 2px 2px 5px #F6F6F6;
+        }
+    
+    }
+
+    
+    .descBloc {
+        width: 70vw;
+    
+        p {   
+            color: #F6F6F6;
+            font-size: 4vw;  
+            text-shadow: 2px 2px 5px #252525; 
+        }
+    }
+
+    .downBtn {
+        width: 150px;
+    }
+
+    .downButton {
+        width: 150px;
+        height: 40px;
+    
+        .btn-text-one {
+            font-size: 1rem
+          }
+    }
+
+    .presBloc {  
+        height: 100%;
+
+        h3 {
+            padding-top: 100px;
+            font-size: 8vw;
+            margin: 0 auto
+        }
+    }
+
+    .presDesc {
+        flex-direction: column;
+        margin: 50px auto;
+    }
+
+    .profilePicBloc {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .presText {
+        gap: 10px;
+        width: 80vw;
+        height: auto;
+        font-size: 4vw;
+    
+        p {
+            margin: 0;
+        }
+    
+        a {
+            color: #F95959;
+            text-decoration: none;
+        }
+    }
+}
