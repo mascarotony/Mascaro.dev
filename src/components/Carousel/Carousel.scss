@@ -24,6 +24,7 @@
 
         .ItemDesc {
             transform: translateY(20px);
+            height: 100px;
             width: 60%;
 
             b {
@@ -32,8 +33,9 @@
             }
 
             p {
+                font-size: 1vw;
                 position: relative;
-                top: -60%;
+                top: -30%;
                 opacity: 1;
             }
         }
@@ -66,9 +68,9 @@
     transition: all 300ms ease;
 
     b {
-        font-size: 1.5rem;
+        font-size: 1.5vw;
         position: relative;
-        top: 20%;
+        top: -20%;
         transition: all 300ms ease;
     }
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 //Component
-import Header from '../../components/Header/Header'
+import Nav from '../../components/Nav/Nav'
 
 //Style
 import './Error.css'
@@ -16,7 +16,7 @@ function Error() {
       <Helmet>
         <title>Mascaro.dev || Erorr 404</title>
       </Helmet>
-      <Header />
+      <Nav />
       <div className="errorBloc">
         <div className="errorNumber">
           <strong>404</strong>

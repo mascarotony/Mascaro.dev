@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import { NavLink } from 'react-router-dom'
 
 //Components
-import Header from '../../components/Header/Header'
+import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 
 //Assets
@@ -22,7 +22,7 @@ function Home() {
       <Helmet>
         <title>Mascaro.dev | Acceuil</title>
       </Helmet>
-      <Header />
+      <Nav />
       <div className="titleBloc">
         <h1>Développeur Web</h1>
         <h2>Basé à Angers - France</h2>

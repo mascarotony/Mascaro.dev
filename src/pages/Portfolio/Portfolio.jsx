@@ -3,7 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 //Components
-import Header from '../../components/Header/Header'
+import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import Carousel from '../../components/Carousel/Carousel'
 
@@ -17,7 +17,7 @@ function Portfolio() {
       <Helmet>
         <title>Mascaro.dev | Portfolio</title>
       </Helmet>
-      <Header />
+      <Nav />
       <div className="PortfolioBloc">
         <h1>Portfolio</h1>
         <div className="carouselBloc">

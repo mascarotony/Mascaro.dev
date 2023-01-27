@@ -3,7 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 //Components
-import Header from '../../components/Header/Header'
+import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import ContactForm from '../../components/ContactForm/ContactForm'
 
@@ -17,7 +17,7 @@ function Contact() {
       <Helmet>
         <title>Mascaro.dev | Contact</title>
       </Helmet>
-      <Header />
+      <Nav />
       <div className="ContactBloc">
         <h1>Contact</h1>
         <ContactForm />

@@ -1,5 +1,6 @@
 .ContactForm {
-  width: 800px;
+  width: 80vw;
+  max-width: 800px;
   padding: 40px;
   background: rgba(37, 37, 37, 0.6);
   box-shadow: 0 15px 25px #F6F6F6;
