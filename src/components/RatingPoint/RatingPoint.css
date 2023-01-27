@@ -7,3 +7,13 @@
     color: #F95959;
     font-size: 1.5rem;
 }
+
+@media screen and(max-width:850px) {
+    .ratePoint {
+        font-size: 1.5vw;
+    }
+    
+    .ratePoint-Active {
+        font-size: 1.5vw;
+    }
+}
