@@ -122,36 +122,52 @@
     }
 
     .CarouselItem {
+        transition: none;
         width: 100vw;
+        gap: 20px;
 
-        &:hover{
-    
+        &:hover {
+            transform: none;
+
             .ItemDesc {
+                transform: none;
                 height: fit-content;
-                transform: translateY(-20px);
-                z-index: -1;
+                width: 100%;
+
+                b {
+                    font-size: 5vw;
+                    opacity: 1;
+                }
 
                 p {
-                    font-size: 2vw;
-                    position: relative;
-                    top: -30%;
+                    opacity: 1;
+                    font-size: 1rem;
                 }
+            }
+        }
+
+        a {
+            img {
+                filter: none;
             }
         }
     }
 
     .ItemDesc {
-        b {
-            font-size: 4vw;
-            position: relative;
-            top: -20%;
-            transition: all 300ms ease;
+        transform: none;
+        height: fit-content;
+        width: 100%;
+
+        b{
+            font-size: 5vw;
+        }
+
+        p {
+            opacity: 1;
         }
     }
 
     .slideVector {
-        font-size: 5vw;
-        width: 10vw;
-        z-index: 2;
+        display: none;
     }
 }
