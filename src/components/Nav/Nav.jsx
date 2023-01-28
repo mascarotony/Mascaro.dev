@@ -19,8 +19,10 @@ function Nav() {
   return (
     <nav className={`NavBar ${showMenu ? 'showBar' : 'hiddenBar'}`}>
       <div className="Logo">
-        <img src={Logo} alt="Logo Mascaro.dev" />
-        <b className="Title">Mascaro.dev</b>
+        <NavLink className="backMenu" to="/" end>
+          <img src={Logo} alt="Logo Mascaro.dev" />
+          <b className="Title">Mascaro.dev</b>
+        </NavLink>
       </div>
       <ul className="NavList">
         <li className="NavItem Slide1">
