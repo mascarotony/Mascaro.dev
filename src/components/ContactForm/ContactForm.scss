@@ -105,3 +105,10 @@
         }
     }
 }
+
+@media screen and(max-width:850px) {
+    .ContactForm {
+        height: 400px;
+        width: 80vw;
+    }
+}
