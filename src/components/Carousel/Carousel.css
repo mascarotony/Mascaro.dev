@@ -120,29 +120,45 @@
     width: 90vw;
   }
   .CarouselItem {
+    transition: none;
     width: 100vw;
+    gap: 20px;
+  }
+  .CarouselItem:hover {
+    transform: none;
   }
   .CarouselItem:hover .ItemDesc {
+    transform: none;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    transform: translateY(-20px);
-    z-index: -1;
+    width: 100%;
+  }
+  .CarouselItem:hover .ItemDesc b {
+    font-size: 5vw;
+    opacity: 1;
   }
   .CarouselItem:hover .ItemDesc p {
-    font-size: 2vw;
-    position: relative;
-    top: -30%;
+    opacity: 1;
+    font-size: 1rem;
+  }
+  .CarouselItem a img {
+    filter: none;
+  }
+  .ItemDesc {
+    transform: none;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
   }
   .ItemDesc b {
-    font-size: 4vw;
-    position: relative;
-    top: -20%;
-    transition: all 300ms ease;
+    font-size: 5vw;
+  }
+  .ItemDesc p {
+    opacity: 1;
   }
   .slideVector {
-    font-size: 5vw;
-    width: 10vw;
-    z-index: 2;
+    display: none;
   }
 }/*# sourceMappingURL=Carousel.css.map */

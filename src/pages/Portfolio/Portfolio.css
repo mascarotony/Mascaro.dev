@@ -34,7 +34,7 @@
   .PortfolioBloc h1 {
     font-size: 7vw;
   }
-  .carouselBloc {
-    margin: 100px auto;
+  .PortfolioBloc .carouselBloc {
+    margin: 50px 0;
   }
 }/*# sourceMappingURL=Portfolio.css.map */
