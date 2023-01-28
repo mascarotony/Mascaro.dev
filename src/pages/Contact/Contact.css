@@ -33,4 +33,27 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .ContactBloc {
+    padding-top: 120px;
+    gap: 50px;
+  }
+  .ContactBloc h1 {
+    font-size: 7vw;
+  }
+  .ContactBloc h2 {
+    font-size: 5vw;
+  }
+  .ContactBloc #map {
+    width: 80vw;
+    height: 400px;
+    margin-bottom: 80px;
+  }
+  .ContactBloc #map iFrame {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
 }/*# sourceMappingURL=Contact.css.map */

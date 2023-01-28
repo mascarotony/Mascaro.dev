@@ -90,4 +90,11 @@
   cursor: pointer;
   background: #F95959;
   box-shadow: 0 0 5px #F95959, 0 0 50px #F95959;
+}
+
+@media screen and (max-width: 850px) {
+  .ContactForm {
+    height: 400px;
+    width: 80vw;
+  }
 }/*# sourceMappingURL=ContactForm.css.map */
