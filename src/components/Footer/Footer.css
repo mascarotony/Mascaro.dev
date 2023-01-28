@@ -51,4 +51,10 @@
   100% {
     transform: translateY(0%);
   }
+}
+@media screen and (max-width: 850px) {
+  .chevronIcon {
+    -webkit-animation: Bounce 800ms ease infinite;
+            animation: Bounce 800ms ease infinite;
+  }
 }/*# sourceMappingURL=Footer.css.map */

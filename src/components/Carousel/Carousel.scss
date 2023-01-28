@@ -114,4 +114,44 @@
     100% {
      box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
-   }
+}
+
+@media screen and(max-width:850px) {
+    .Carousel {
+        width: 90vw;
+    }
+
+    .CarouselItem {
+        width: 100vw;
+
+        &:hover{
+    
+            .ItemDesc {
+                height: fit-content;
+                transform: translateY(-20px);
+                z-index: -1;
+
+                p {
+                    font-size: 2vw;
+                    position: relative;
+                    top: -30%;
+                }
+            }
+        }
+    }
+
+    .ItemDesc {
+        b {
+            font-size: 4vw;
+            position: relative;
+            top: -20%;
+            transition: all 300ms ease;
+        }
+    }
+
+    .slideVector {
+        font-size: 5vw;
+        width: 10vw;
+        z-index: 2;
+    }
+}
