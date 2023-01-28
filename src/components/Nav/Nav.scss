@@ -15,19 +15,23 @@
 }
 
 .Logo {
-    display: flex;
-    align-items: center;
-    height: 75px;
-    width: 75px;
+    .backMenu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        height: 75px;
+        width: 75px;
 
-    img {
-        width: 100%;
-        height: 100%;
-    }
+        img {
+            width: 100%;
+            height: 100%;
+        }
 
-    b {
-        font-size: 2.5rem;
-        color: #252525;
+        b {
+            font-size: 2.5rem;
+            color: #252525;
+        }
     }
 }
 
@@ -75,10 +79,12 @@
 
 @media screen and(max-width:850px) {
     .Logo {
-        height: 40px;
+        .backMenu {
+            height: 40px;
 
-        b {
-            font-size: 1.5rem;
+            b {
+                font-size: 1.5rem;
+            }
         }
     }
 

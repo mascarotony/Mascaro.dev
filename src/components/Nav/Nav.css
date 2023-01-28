@@ -14,17 +14,19 @@
   box-shadow: 0 2px 5px #252525;
 }
 
-.Logo {
+.Logo .backMenu {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  text-decoration: none;
   height: 75px;
   width: 75px;
 }
-.Logo img {
+.Logo .backMenu img {
   width: 100%;
   height: 100%;
 }
-.Logo b {
+.Logo .backMenu b {
   font-size: 2.5rem;
   color: #252525;
 }
@@ -69,10 +71,10 @@
 }
 
 @media screen and (max-width: 850px) {
-  .Logo {
+  .Logo .backMenu {
     height: 40px;
   }
-  .Logo b {
+  .Logo .backMenu b {
     font-size: 1.5rem;
   }
   .NavList {
