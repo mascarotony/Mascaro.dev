@@ -36,4 +36,34 @@
 .errorBloc a:hover {
   background-color: #F95959;
   color: #F6F6F6;
+}
+
+@media screen and (max-width: 850px) {
+  .errorBloc p {
+    margin: 0 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 5vw;
+  }
+  .errorBloc .errorNumber {
+    margin-top: 100px;
+    -webkit-box-reflect: unset;
+  }
+  .errorBloc .errorNumber strong {
+    font-size: 40vw;
+  }
+  .errorBloc a {
+    font-size: 5vw;
+    color: #F95959;
+    background-color: #F6F6F6;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #252525;
+    transition: all 300ms ease;
+  }
+  .errorBloc a:hover {
+    background-color: #F95959;
+    color: #F6F6F6;
+  }
 }/*# sourceMappingURL=Error.css.map */
