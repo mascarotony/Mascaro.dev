@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import ContactForm from '../../components/ContactForm/ContactForm'
+import SMBar from '../../components/SMBar/SMBar'
 
 //Style
 import './Contact.css'
@@ -31,6 +32,7 @@ function Contact() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+        <SMBar />
       </div>
       <Footer />
     </div>
