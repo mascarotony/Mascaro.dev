@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom'
 //Components
 import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
+import SMBar from '../../components/SMBar/SMBar'
 
 //Assets
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -87,6 +88,7 @@ function Home() {
             </p>
           </div>
         </div>
+        <SMBar />
       </div>
       <Footer />
     </div>

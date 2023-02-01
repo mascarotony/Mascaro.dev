@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import RatingPoint from '../../components/RatingPoint/RatingPoint'
+import SMBar from '../../components/SMBar/SMBar'
 
 //Datas
 import CompItem from '../../assets/datas/Comp'
@@ -50,6 +51,7 @@ function Competences() {
           pour plus d'informations sur mes expériences précédentes.
         </p>
         <b>D'autres compétences apparaîtront avec l'expérience ...</b>
+        <SMBar />
       </div>
       <Footer />
     </div>

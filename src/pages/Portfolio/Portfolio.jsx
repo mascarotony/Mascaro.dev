@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
 import Carousel from '../../components/Carousel/Carousel'
+import SMBar from '../../components/SMBar/SMBar'
 
 //Style
 import './Portfolio.css'
@@ -23,6 +24,7 @@ function Portfolio() {
         <div className="carouselBloc">
           <Carousel />
         </div>
+        <SMBar />
       </div>
       <Footer />
     </div>
