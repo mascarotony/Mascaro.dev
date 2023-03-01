@@ -65,6 +65,14 @@ const CompItem = [
       'https://media.licdn.com/dms/image/D4D12AQHW9aRSWIOMxQ/article-cover_image-shrink_600_2000/0/1657421703592?e=2147483647&v=beta&t=nKygyfSDFwgPdEoC-nEkogMS0527SBa8z8D_FqUr-us',
     iconAlt: 'Icône JWT',
     rating: 4
+  },
+  {
+    id: '10',
+    title: 'MySQL',
+    icon:
+      'https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png',
+    iconAlt: 'Icône MySQL',
+    rating: 4
   }
 ]
 
